@@ -7,11 +7,10 @@ console.log(nom);
 
 prenom = "Tom";
 nom = "Pouce";
-let age = 18;
+let age = 18%3;
 
 
 console.log("Bonjour " + prenom + ' ' + nom + " !");
-console.log(age);
+console.log("Ton age est : " + age);
 
-
-
+alert("Hello world ! ");
