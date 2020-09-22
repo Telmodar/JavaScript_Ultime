@@ -14,3 +14,4 @@ console.log("Bonjour " + prenom + ' ' + nom + " !");
 console.log("Ton age est : " + age);
 
 alert("Hello world ! ");
+confirm("Etes vous sur ?");
