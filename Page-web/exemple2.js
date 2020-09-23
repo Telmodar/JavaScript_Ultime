@@ -1,4 +1,55 @@
-/*let prenom = "Christophe";
+let crie
+
+
+function crieDeGuerre() {
+
+    crie = "Arhhrhrhhh" ;
+    console.log(crie); 
+}
+
+
+
+//camel Case
+
+
+
+
+
+
+
+/*
+
+function addition(nb1, nb2) {
+
+    alert(nb1 + nb2)
+    
+}
+
+//addition(12, 5)
+
+
+function name() 
+
+{
+    let nom = prompt("Quel est votre nom : ")
+    alert("Vous vous appelez " + nom + " !")
+    
+}
+
+name()
+
+
+
+function sayHello() {
+    
+    alert("Hello guys !")
+
+}
+
+sayHello()
+
+
+let prenom = "Christophe";
 let nom = "Santamaria";
 
 console.log(prenom);
@@ -25,7 +76,7 @@ else {
     alert("Annultion") 
 }
 
-*/
-let age = prompt("Entrez votre age");
 
-altert("Vous avez " + age + " ans");
+const age = prompt("Entrez votre age");
+
+alert("Vous avez " + age + " ans");*/
