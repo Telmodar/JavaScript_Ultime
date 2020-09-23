@@ -1,4 +1,4 @@
-let prenom = "Christophe";
+/*let prenom = "Christophe";
 let nom = "Santamaria";
 
 console.log(prenom);
@@ -24,3 +24,8 @@ else {
 
     alert("Annultion") 
 }
+
+*/
+let age = prompt("Entrez votre age");
+
+altert("Vous avez " + age + " ans");
