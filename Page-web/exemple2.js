@@ -1,15 +1,21 @@
-let crie
+function abracadabra() {
 
+    let prenom  = prompt("Quel est votre prénom : ");
+    let nom     = prompt("Quel est votre nom : ");
+    let age     = prompt("Quel est votre age : ");
 
-function crieDeGuerre() {
-
-    crie = "Arhhrhrhhh" ;
-    console.log(crie); 
+    alert   ("Sapristi ! On ne m'avait pas prévenu que c'était vous " 
+            + prenom 
+            + " ! Euh... Je veux dire... Monsieur le grand magicien " 
+            + nom 
+            + " ! Cela fait déjà " 
+            + age 
+            + " ans que vous faites rayonner notre contrée ! ");
+    
 }
 
-
-
-//camel Case
+abracadabra();
+ 
 
 
 
@@ -18,6 +24,45 @@ function crieDeGuerre() {
 
 
 /*
+
+(function(){console.log("Je suis une fonction annonyme ! ")})();
+
+function prevoirAge(){
+
+    let valAge = prompt("Quel est votre age ? ") ;
+    valAge = Number(valAge); 
+
+    alert("Bientôt vous aurez " + (valAge +1) + " ans !") ;
+
+}
+
+prevoirAge() ; 
+
+-----------
+
+function cuisiner (nombreDeGateaux, minPrepa = 10, minCuiss = 15) {
+
+    let resultat = nombreDeGateaux * (minPrepa + minCuiss) ;
+    return resultat ;
+}
+
+let tempsDePrepaChoco = cuisiner(4)
+let tempsDePrepaFraisier = cuisiner(1, 100)
+console.log(tempsDePrepaFraisier + tempsDePrepaChoco); 
+
+let crie = "test"; // variable globale
+
+
+function crieDeGuerre() {
+
+    crie = "Arhhrhrhhh"; //variable locale
+    console.log(crie); 
+}
+
+crieDeGuerre();
+console.log(crie);
+
+
 
 function addition(nb1, nb2) {
 
