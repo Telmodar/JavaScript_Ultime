@@ -1,4 +1,37 @@
-function abracadabra() {
+//EXERCICE 2 
+
+let poids   = prompt("Quel est votre poids ? ");
+let taille  = prompt("Quel est votre taille en centimetres ? ");
+
+function calculImc (poidsUser, tailleUser){
+    
+    tailleUserCm    = tailleUser / 100 ; 
+
+    imc             = poidsUser / Math.pow(tailleUserCm, 2) ;
+    
+    return imc ;
+}
+
+calculImc(poids, taille) ;
+
+if (imc > 25){
+alert("Votre IMC est de " + imc + " t'es un putain de gros") ;
+}
+
+else {
+    alert("Votre IMC est de " + imc + ". Va bouffer un peu espèce de squelette") ; 
+}
+
+
+
+
+
+
+
+
+
+// EXERCICE 1 
+/*function abracadabra() {
 
     let prenom  = prompt("Quel est votre prénom : ");
     let nom     = prompt("Quel est votre nom : ");
@@ -14,7 +47,7 @@ function abracadabra() {
     
 }
 
-abracadabra();
+abracadabra();/*
  
 
 
