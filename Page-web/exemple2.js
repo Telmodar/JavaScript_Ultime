@@ -1,29 +1,23 @@
-//EXERCICE 2 
+let age = prompt ("Quel est votre age ?"); 
 
-let poids   = prompt("Quel est votre poids ? ");
-let taille  = prompt("Quel est votre taille en centimetres ? ");
+// if(age < 18) {
+//     alert("Vous n'êtes pas majeur");
 
-function calculImc (poidsUser, tailleUser){
-    
-    tailleUserCm    = tailleUser / 100 ; 
+// } 
 
-    imc             = poidsUser / Math.pow(tailleUserCm, 2) ;
-    
-    return imc ;
+// else if(age > 18 && age < 21) {
+//     alert("Vous êtes majeur en france");
+// }
+
+// else {
+//     alert("Vous êtes majeur");
+// }
+
+age < 18 ? alert("Vous n'êtes pas majeur") : alert("Vous êtes majeur") ; 
+
+while(age<2000){
+    console.log(1)
 }
-
-calculImc(poids, taille) ;
-
-if (imc > 25){
-alert("Votre IMC est de " + imc + " t'es un putain de gros") ;
-}
-
-else {
-    alert("Votre IMC est de " + imc + ". Va bouffer un peu espèce de squelette") ; 
-}
-
-
-
 
 
 
@@ -51,7 +45,27 @@ abracadabra();/*
  
 
 
+//EXERCICE 2 
 
+let poids   = prompt("Quel est votre poids ? ");
+let taille  = prompt("Quel est votre taille en centimetres ? ");
+// Demande les informations de poids et taille 
+
+function calculImc (poidsUser, tailleUser){
+    
+    
+    return poidsUser / Math.pow(tailleUser / 100, 2) ;
+    // Retourne le resultat de l'IMC
+}
+
+
+if (calculImc(poids, taille) > 25){
+alert("Votre IMC est de " + calculImc(poids, taille) + " t'es un putain de gros") ;
+}
+
+else {
+    alert("Votre IMC est de " + calculImc(poids, taille) + ". Va bouffer un peu espèce de squelette") ; 
+}
 
 
 
