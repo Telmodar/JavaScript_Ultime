@@ -1,26 +1,3 @@
-let nombre 1
-
-
-while{}
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 // try{
@@ -81,7 +58,7 @@ while{}
 
 
 // EXERCICE 1 
-/*function abracadabra() {
+function abracadabra() {
 
     let prenom  = prompt("Quel est votre prénom : ");
     let nom     = prompt("Quel est votre nom : ");
@@ -97,31 +74,31 @@ while{}
     
 }
 
-abracadabra();/*
+abracadabra();
  
 
 
 //EXERCICE 2 
 
-let poids   = prompt("Quel est votre poids ? ");
-let taille  = prompt("Quel est votre taille en centimetres ? ");
-// Demande les informations de poids et taille 
+// let poids   = prompt("Quel est votre poids ? ");
+// let taille  = prompt("Quel est votre taille en centimetres ? ");
+// // Demande les informations de poids et taille 
 
-function calculImc (poidsUser, tailleUser){
+// function calculImc (poidsUser, tailleUser){
     
     
-    return poidsUser / Math.pow(tailleUser / 100, 2) ;
-    // Retourne le resultat de l'IMC
-}
+//     return poidsUser / Math.pow(tailleUser / 100, 2) ;
+//     // Retourne le resultat de l'IMC
+// }
 
 
-if (calculImc(poids, taille) > 25){
-alert("Votre IMC est de " + calculImc(poids, taille) + " t'es un putain de gros") ;
-}
+// if (calculImc(poids, taille) > 25){
+// alert("Votre IMC est de " + calculImc(poids, taille) + " t'es un putain de gros") ;
+// }
 
-else {
-    alert("Votre IMC est de " + calculImc(poids, taille) + ". Va bouffer un peu espèce de squelette") ; 
-}
+// else {
+//     alert("Votre IMC est de " + calculImc(poids, taille) + ". Va bouffer un peu espèce de squelette") ; 
+// }
 
 
 
