@@ -1,4 +1,38 @@
-let age = prompt ("Quel est votre age ?"); 
+try{
+
+let recompence = prompt ("Choisissez votre recompence : (1)Epee, (2)Couteaux ");  
+let OldDegats = 10 ;
+let newDegats ;  
+
+
+switch (recompence) {
+    case "1":
+        newDegats = 40 - OldDegats
+        break;
+
+    case "2": 
+        newDegats = 20 - OldDegats    
+
+        break;
+    default:
+        throw new Error("Action non autorisée ! ")
+        break;
+}
+alert("Vous avez choisis " + recompence + " vous dégats sont augmenté de " + newDegats)
+}
+
+
+catch(error){
+    alert(error)
+}
+
+
+
+
+
+
+
+// let age = prompt("Quel est votre age ?"); 
 
 // if(age < 18) {
 //     alert("Vous n'êtes pas majeur");
@@ -13,11 +47,8 @@ let age = prompt ("Quel est votre age ?");
 //     alert("Vous êtes majeur");
 // }
 
-age < 18 ? alert("Vous n'êtes pas majeur") : alert("Vous êtes majeur") ; 
+// age < 18 ? alert("Vous n'êtes pas majeur") : alert("Vous êtes majeur") ; 
 
-while(age<2000){
-    console.log(1)
-}
 
 
 
