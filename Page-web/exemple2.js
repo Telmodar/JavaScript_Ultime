@@ -1,30 +1,55 @@
-try{
-
-let recompence = prompt ("Choisissez votre recompence : (1)Epee, (2)Couteaux ");  
-let OldDegats = 10 ;
-let newDegats ;  
+let nombre 1
 
 
-switch (recompence) {
-    case "1":
-        newDegats = 40 - OldDegats
-        break;
-
-    case "2": 
-        newDegats = 20 - OldDegats    
-
-        break;
-    default:
-        throw new Error("Action non autorisée ! ")
-        break;
-}
-alert("Vous avez choisis " + recompence + " vous dégats sont augmenté de " + newDegats)
-}
+while{}
 
 
-catch(error){
-    alert(error)
-}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+// try{
+
+// let recompence = prompt ("Choisissez votre recompence : (1)Epee, (2)Couteaux ");  
+// let OldDegats = 10 ;
+// let newDegats ;  
+
+
+// switch (recompence) {
+//     case "1":
+//         newDegats = 40 - OldDegats
+//         break;
+
+//     case "2": 
+//         newDegats = 20 - OldDegats    
+
+//         break;
+//     default:
+//         throw new Error("Action non autorisée ! ")
+//         break;
+// }
+// alert("Vous avez choisis " + recompence + " vous dégats sont augmenté de " + newDegats)
+// }
+
+
+// catch(error){
+//     alert(error)
+// }
 
 
 
