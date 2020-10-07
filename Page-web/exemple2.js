@@ -1,7 +1,3 @@
-let nombre 1
-
-
-while{}
 
 
 
@@ -11,6 +7,49 @@ while{}
 
 
 
+
+
+
+
+
+
+
+/*
+
+let result = 0 ;
+let result2 = 0;
+var chiffre;
+
+
+function name(i) {
+    
+
+for (let i = 1; i <= 5; i++) {
+    result = result+i ;
+    console.log("for " + result);
+    
+}}
+
+name(1) ; 
+
+
+
+function name1(chiffre) {
+
+    if (chiffre <= 5) {
+        result2 = result2 + chiffre; 
+        console.log("if " + result2); 
+        name1(chiffre+1);
+         
+    }
+    
+}
+
+name1(1) ; 
+
+
+
+*/
 
 
 
