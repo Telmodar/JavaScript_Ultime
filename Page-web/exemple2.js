@@ -1,3 +1,68 @@
+<<<<<<< HEAD
+=======
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*
+
+let result = 0 ;
+let result2 = 0;
+var chiffre;
+
+
+function name(i) {
+    
+
+for (let i = 1; i <= 5; i++) {
+    result = result+i ;
+    console.log("for " + result);
+    
+}}
+
+name(1) ; 
+
+
+
+function name1(chiffre) {
+
+    if (chiffre <= 5) {
+        result2 = result2 + chiffre; 
+        console.log("if " + result2); 
+        name1(chiffre+1);
+         
+    }
+    
+}
+
+name1(1) ; 
+
+
+
+*/
+
+
+
+
+
+
+
+
+
+
+>>>>>>> 16be6c2827aa0b8b683b47cf7d93b8690b3e3b6e
 
 
 // try{
