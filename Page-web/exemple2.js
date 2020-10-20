@@ -5,6 +5,24 @@
 
 
 
+let monTableauAssociatif = {
+    'prenom': 'Mark',
+    'nom': 'Zuckerberg',
+    'poste': 'PDG de Facebook'
+};
+
+
+function afficher(tableau) {
+
+    let chaine = '';
+    for (const valeur in tableau) {
+
+        chaine += (valeur + " : " + tableau[valeur] + "\n");
+    }
+    console.log(chaine)
+}
+afficher(monTableauAssociatif);
+
 
 
 
@@ -16,36 +34,95 @@
 
 /*
 
+let listeDePays =["Fr", "Be", "Jap", "Mar"];
+
+for (const pays of listeDePays) {
+
+    console.log(pays);
+
+}
+
+listeDePays.forEach(function(pays){
+
+    console.log(pays)
+
+});
+
+listeDePays.forEach(pays => console.log(pays));
+
+
+*/
+
+
+
+
+
+
+
+/*
+
+let monTableau = ['un', 'deux', 'trois', 'quatre'];
+monTableau.splice(1, 0, 'random', 'pie');
+// console.log(monTableau);
+
+let monTableau2D = [
+    ['Mark', 'Jeff', 'Bill'],
+    ['Zuckerberg', 'Bezos', 'Gates']
+];
+monTableau2D.splice(2, 0, ['30', '45', '70']);
+console.log(monTableau2D);
+
+let monTableauAssociatif = {
+    'prenom' : 'Mark',
+    'nom'    : 'Zuckerberg',
+    'poste'  : 'PDG de Facebook'
+};
+// console.log(monTableauAssociatif);
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 let result = 0 ;
 let result2 = 0;
 var chiffre;
 
 
 function name(i) {
-    
+
 
 for (let i = 1; i <= 5; i++) {
     result = result+i ;
     console.log("for " + result);
-    
+
 }}
 
-name(1) ; 
+name(1) ;
 
 
 
 function name1(chiffre) {
 
     if (chiffre <= 5) {
-        result2 = result2 + chiffre; 
-        console.log("if " + result2); 
+        result2 = result2 + chiffre;
+        console.log("if " + result2);
         name1(chiffre+1);
-         
+
     }
-    
+
 }
 
-name1(1) ; 
+name1(1) ;
 
 
 
@@ -117,38 +194,38 @@ name1(1) ;
 
 
 
+/*
 
-
-// EXERCICE 1 
+// EXERCICE 1
 function abracadabra() {
 
     let prenom  = prompt("Quel est votre prénom : ");
     let nom     = prompt("Quel est votre nom : ");
     let age     = prompt("Quel est votre age : ");
 
-    alert   ("Sapristi ! On ne m'avait pas prévenu que c'était vous " 
-            + prenom 
-            + " ! Euh... Je veux dire... Monsieur le grand magicien " 
-            + nom 
-            + " ! Cela fait déjà " 
-            + age 
+    alert   ("Sapristi ! On ne m'avait pas prévenu que c'était vous "
+            + prenom
+            + " ! Euh... Je veux dire... Monsieur le grand magicien "
+            + nom
+            + " ! Cela fait déjà "
+            + age
             + " ans que vous faites rayonner notre contrée ! ");
-    
+
 }
 
 abracadabra();
- 
 
 
-//EXERCICE 2 
+
+//EXERCICE 2
 
 // let poids   = prompt("Quel est votre poids ? ");
 // let taille  = prompt("Quel est votre taille en centimetres ? ");
-// // Demande les informations de poids et taille 
+// // Demande les informations de poids et taille
 
 // function calculImc (poidsUser, tailleUser){
-    
-    
+
+
 //     return poidsUser / Math.pow(tailleUser / 100, 2) ;
 //     // Retourne le resultat de l'IMC
 // }
@@ -159,7 +236,7 @@ abracadabra();
 // }
 
 // else {
-//     alert("Votre IMC est de " + calculImc(poids, taille) + ". Va bouffer un peu espèce de squelette") ; 
+//     alert("Votre IMC est de " + calculImc(poids, taille) + ". Va bouffer un peu espèce de squelette") ;
 // }
 
 
@@ -172,13 +249,13 @@ abracadabra();
 function prevoirAge(){
 
     let valAge = prompt("Quel est votre age ? ") ;
-    valAge = Number(valAge); 
+    valAge = Number(valAge);
 
     alert("Bientôt vous aurez " + (valAge +1) + " ans !") ;
 
 }
 
-prevoirAge() ; 
+prevoirAge() ;
 
 -----------
 
@@ -190,7 +267,7 @@ function cuisiner (nombreDeGateaux, minPrepa = 10, minCuiss = 15) {
 
 let tempsDePrepaChoco = cuisiner(4)
 let tempsDePrepaFraisier = cuisiner(1, 100)
-console.log(tempsDePrepaFraisier + tempsDePrepaChoco); 
+console.log(tempsDePrepaFraisier + tempsDePrepaChoco);
 
 let crie = "test"; // variable globale
 
@@ -198,7 +275,7 @@ let crie = "test"; // variable globale
 function crieDeGuerre() {
 
     crie = "Arhhrhrhhh"; //variable locale
-    console.log(crie); 
+    console.log(crie);
 }
 
 crieDeGuerre();
@@ -209,18 +286,18 @@ console.log(crie);
 function addition(nb1, nb2) {
 
     alert(nb1 + nb2)
-    
+
 }
 
 //addition(12, 5)
 
 
-function name() 
+function name()
 
 {
     let nom = prompt("Quel est votre nom : ")
     alert("Vous vous appelez " + nom + " !")
-    
+
 }
 
 name()
@@ -228,7 +305,7 @@ name()
 
 
 function sayHello() {
-    
+
     alert("Hello guys !")
 
 }
@@ -260,7 +337,7 @@ if(confirm("Etes vous sur ?")) {
 }
 else {
 
-    alert("Annultion") 
+    alert("Annultion")
 }
 
 
