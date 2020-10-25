@@ -1,3 +1,26 @@
+let info = [];
+
+info[1] = prompt();
+
+console.log(info)
+
+
+
+
+// let choukel = {
+
+//     race : "niketamere",
+//     poil : "35cm mamene",
+//     aboyer: () => console.log("Wouaf"),
+
+//     attaquer : () => console.log("attention j'attaque PD")
+    
+
+
+// }
+
+// choukel.attaquer();
+// choukel.aboyer();
 
 
 
@@ -5,30 +28,24 @@
 
 
 
-let monTableauAssociatif = {
-    'prenom': 'Mark',
-    'nom': 'Zuckerberg',
-    'poste': 'PDG de Facebook'
-};
+
+// let monTableauAssociatif = {
+//     'prenom': 'Mark',
+//     'nom': 'Zuckerberg',
+//     'poste': 'PDG de Facebook'
+// };
 
 
-function afficher(tableau) {
+// function afficher(tableau) {
 
-    let chaine = '';
-    for (const valeur in tableau) {
+//     let chaine = '';
+//     for (const valeur in tableau) {
 
-        chaine += (valeur + " : " + tableau[valeur] + "\n");
-    }
-    console.log(chaine)
-}
-afficher(monTableauAssociatif);
-
-
-
-
-
-
-
+//         chaine += (valeur + " : " + tableau[valeur] + "\n");
+//     }
+//     console.log(chaine)
+// }
+// afficher(monTableauAssociatif);
 
 
 
