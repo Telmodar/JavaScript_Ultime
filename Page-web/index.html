@@ -1,21 +1,46 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Les boîtes de dialogue ! </title>
 </head>
+
 <body>
 
     <h1>Bonjour ! </h1>
 
     <script src="exemple2.js"></script>
 
-    <p>Voici la vidéo test. Pour que cette vidéo fonctionne vous devez être connecter avec votre compte NewCo</p>
+    <p>Voici les vidéos test. Pour que cette vidéo fonctionne vous devez être connecter avec votre compte NewCo</p>
+
+   
+    <h2>Vidéo en 240p</h2>
+    <iframe width=427 height=240
+        src='https://newcopy.sharepoint.com/portals/hub/_layouts/15/VideoEmbedHost.aspx?chId=a77a3225%2D0404%2D402a%2Da6c3%2D85136596c82b&amp;vId=8639b16d%2D3631%2D4f4e%2D90ca%2D341ef08f3e87&amp;width=427&amp;height=240&amp;autoPlay=false&amp;showInfo=true'
+        allowfullscreen></iframe>
+
+    <h2>Vidéi en 360p</h2>
+    <iframe width=640 height=360
+        src='https://newcopy.sharepoint.com/portals/hub/_layouts/15/VideoEmbedHost.aspx?chId=a77a3225%2D0404%2D402a%2Da6c3%2D85136596c82b&amp;vId=ca4a606c%2Df206%2D4947%2Db135%2D062d0dd14680&amp;width=640&amp;height=360&amp;autoPlay=false&amp;showInfo=true'
+        allowfullscreen></iframe>
+   
+    <h2>Vidéo en 480p</h2>
+    <iframe width=853 height=480
+        src='https://newcopy.sharepoint.com/portals/hub/_layouts/15/VideoEmbedHost.aspx?chId=a77a3225%2D0404%2D402a%2Da6c3%2D85136596c82b&amp;vId=e4d10f14%2D8e6d%2D4bdb%2Db3da%2D68279f70c2e7&amp;width=853&amp;height=480&amp;autoPlay=false&amp;showInfo=true'
+        allowfullscreen></iframe>
     
-    
-    <iframe width=640 height=360 src='https://newcopy.sharepoint.com/portals/hub/_layouts/15/VideoEmbedHost.aspx?chId=a77a3225%2D0404%2D402a%2Da6c3%2D85136596c82b&amp;vId=ca4a606c%2Df206%2D4947%2Db135%2D062d0dd14680&amp;width=640&amp;height=360&amp;autoPlay=false&amp;showInfo=true' allowfullscreen></iframe>
-    
+    <h2>Vidéo en 480p + dimensions autos</h2>
+    <div style='max-width: 853px;'>
+        <div style='position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;'> <iframe width=853
+                height=480
+                src='https://newcopy.sharepoint.com/portals/hub/_layouts/15/VideoEmbedHost.aspx?chId=a77a3225%2D0404%2D402a%2Da6c3%2D85136596c82b&amp;vId=8639b16d%2D3631%2D4f4e%2D90ca%2D341ef08f3e87&amp;width=853&amp;height=480&amp;autoPlay=false&amp;showInfo=true'
+                allowfullscreen data-spresponsive
+                style='position: absolute; top: 0; left: 0; right: 0; bottom: 0; height: 100%; max-width: 100%;'></iframe>
+        </div>
+    </div>
 </body>
+
 </html>
