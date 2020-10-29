@@ -1,6 +1,6 @@
 let info = [];
 
-info[1] = prompt();
+// info[1] = prompt();
 
 console.log(info)
 
