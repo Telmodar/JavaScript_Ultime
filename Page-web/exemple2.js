@@ -1,8 +1,12 @@
+while(x !=0)
+{console.log('Hello')
+    x=1}
+
 let info = [];
 
 // info[1] = prompt();
 
-console.log(info)
+// console.log(info)
 
 
 
