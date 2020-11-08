@@ -1,8 +1,11 @@
-while(x !=0)
-{console.log('Hello')
-    x=1}
 
-let info = [];
+
+for (let index = 0; index < 1; index--) {
+    console.log('Hello' + index);
+    
+}
+
+// let info = [];
 
 // info[1] = prompt();
 
